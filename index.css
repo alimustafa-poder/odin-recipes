@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.all-recipes-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: auto;
+    margin: 10px 20px 10px 100px;
+    row-gap: 30px;
+    column-gap: 40px;
+  }
+  .recipe {
+    padding: 20px 0px 0px 0px;
+    font-size: 5px;
+    border: 1px solid black;
+    height: 400px;
+    width : 500px;
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+  }
+  .recipe h3{
+      background-color: rgb(59, 59, 59);
+      width: 50vw;
+      padding-left: 20px;
+      height: 100px;
+      margin-bottom: 0px;
+      color: white;
+  }
+  .biryani{
+    background-image: url('https://images.unsplash.com/photo-1589302168068-964664d93dc0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmlyeWFuaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    background-position: center;
+  }
+  .beef-karahi{
+    background-image: url('https://media.istockphoto.com/photos/mutton-curry-or-or-masala-gosht-or-indian-lamb-rogan-josh-picture-id879625018');
+    background-size: cover;
+    background-position: center;
+  }
+  .pulao{
+    background-image: url('https://media.istockphoto.com/photos/delicious-fergana-pilaf-uzbek-favorite-dish-on-wooden-background-picture-id1334473708');
+    background-size: cover;
+    background-position: center;
+  }
+  .nihari{
+    background-image: url('https://media.istockphoto.com/photos/mutton-nihari-picture-id1293828321');
+    background-size: cover;
+    background-position: center;
+  }
+  .mutton-karahi{
+    background-image: url('https://media.istockphoto.com/photos/mutton-curry-or-or-masala-gosht-or-indian-lamb-rogan-josh-picture-id879625018');
+    background-size: cover;
+    background-position: center;
+  }
+  .recipe a{
+      text-decoration: none;
+      color: white;
+  }
+  #footer{
+      display: flex;
+      background-color: black;
+      color: white;
+  }
+  #footer ul{
+      list-style: none;
+      display: flex;
+      width: 100%;
+      margin: 0px 30px 0px 30px;
+      justify-content: center;
+      align-items: center;
+  }
+  #footer ul li{
+      display: flex;
+      padding: 0 50px;
+      justify-content: center;
+      align-items: center;
+  }
